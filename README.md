@@ -5,7 +5,7 @@ ORCh is a preprocessing tool designed to automatically generate and optimise red
 
 ORCh combines stochastic methods with graph-analysis together with genetic algorithms. Chemical kinetics are probed in laminar flames and turbulent micro-mixing (pairwise interaction or euclidean minimum spanning tree) canonical problems.
 
-ORCh is coupled with HYPE (HYbrid stochastic sectional method for solving Population balance Equations) and machine learning to deal with carbon nanoparticles formation (nanotube and soot) and non-intertial solid particles (crystallisation).
+ORCh is coupled with HYPE (HYbrid stochastic sectional method for solving Population balance Equations) and machine learning to deal with carbon nanoparticles formation (nanotube and soot) and non-inertial solid particles (crystallisation).
 
 The development of ORCh is reported in two archival papers (make sure to cite those papers when using this program):
 
