@@ -659,6 +659,11 @@ void Optim::Min_Max(OptimScenario* listOptimScenarios, vector<Reaction_ORCh*>& l
             min_max_Ea_R[j][0] = (1-AllowedVariation_E)*listReactions[j]->m_E/8.314;
             min_max_Ea_R[j][1] = (1+AllowedVariation_E)*listReactions[j]->m_E/8.314;
          }
+         else
+         {
+            min_max_Ea_R[j][0] = (1+AllowedVariation_E)*listReactions[j]->m_E/8.314;
+            min_max_Ea_R[j][1] = (1-AllowedVariation_E)*listReactions[j]->m_E/8.314;
+         }
 
          if (listReactions[j]->m_E == 0.0)
          {
