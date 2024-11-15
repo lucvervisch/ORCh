@@ -9,8 +9,6 @@ Cantera/build
 Cantera/.sconf_temp
 Cantera/config.log
 Cantera/.sconsign.dblite
-Cantera/include/cantera/base
 Cantera/include/cantera/ext/fmt
 Cantera/interfaces/cython/cantera/_cantera.h
 Cantera/src/pch/system.h.gch
-Cantera/site_scons
