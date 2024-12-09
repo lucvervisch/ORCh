@@ -181,7 +181,7 @@ void Write_QSS::Write_QSS_file(string Dimension, string mech, string write_mech,
       write << endl << endl;
       write << "   for (int k=0; k<nsp; k++)" << endl;
       write << "   {" << endl;
-      write << "      C[k] = density*mass[k]/mw[k];" << endl;
+      write << "      C[k] = density*mass[k]/(mw[k]*total_mass);" << endl;
       write << "   }" << endl;
       write << "   " << endl;
       write << "   " << endl;
