@@ -485,12 +485,15 @@ void StFlow::evalResidual(double* x, double* rsd, int* diag,
             //   \rho dY_k/dt + \rho u dY_k/dz + dJ_k/dz
             //   = M_k\omega_k
             //-------------------------------------------------
+            // The patch below may be needed for some chemical schemes during GA optimization:
+            // CF4 patch ------->>>>
             //if (T(x,j) > T(x,0) + 100.0) {
             //    getWdot(x,j);
             //} else {
             //    for (size_t k = 0; k < m_nsp; k++) {
             //        m_wdot(k,j) = 0.0;
             //    }
+            // <<<<----- End of CF4 patch
             }
             for (size_t k = 0; k < m_nsp; k++) {
                 double convec = rho_u(x,j)*dYdz(x,k,j);
