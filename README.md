@@ -1,6 +1,10 @@
 # ORCh
 ORCh (Optimised and Reduced Chemistry) is a fully automated method to reduce detailed chemical schemes.
 
+Precompiled versions, ready for use on various platforms, are available here:
+https://drive.google.com/drive/folders/1Y9pc3WnJZ-V2weUlzybuQSgBsXXyGJZ4
+(Prepared by Dr. Kaidi WAN.)
+
 ORCh is a preprocessing tool designed to automatically generate and optimise reduced chemistry for specific CFD conditions, including fuel spray, heat losses, etc.
 
 ORCh combines stochastic methods with graph-analysis together with genetic algorithms. Chemical kinetics are probed in laminar flames and turbulent micro-mixing (pairwise interaction or euclidean minimum spanning tree) canonical problems.
